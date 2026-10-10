@@ -80,9 +80,7 @@ nav {
   font-weight: 700;
   letter-spacing: -1.7px;
   color: #ffe28a;
-  background: linear-gradient(110deg, #ffe28a 0%, #fff4cc 58%, #fff 100%);
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: currentColor;
   transition: transform 180ms ease;
 }
 
@@ -100,6 +98,8 @@ nav li a {
   display: inline-block;
   padding: 8px 0;
   border-bottom: 2px solid transparent;
+  color: #fff;
+  -webkit-text-fill-color: #fff;
   transition: border-color 180ms ease, opacity 180ms ease;
 }
 
